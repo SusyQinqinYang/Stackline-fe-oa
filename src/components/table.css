@@ -1,0 +1,47 @@
+/* Container for the whole table */
+.product-table-wrapper {
+  width: 100%;
+  padding: 15px;
+  background-color: #f1f1f1;
+}
+
+/* Basic table styling */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+/* Header */
+.product-table thead tr {
+  background-color: #fff;
+}
+
+.custom-header {
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.custom-header:hover {
+  background-color: #f0f0f0;
+}
+
+.custom-header > img {
+  margin-left: 5px;
+  width: 10px;
+}
+
+/* Rows */
+.product-table tbody tr {
+  border-top: 1px solid #ddd;
+}
+
+.product-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.product-table td {
+  padding: 10px;
+  color: #333;
+}
